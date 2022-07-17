@@ -1,0 +1,120 @@
+[
+  {
+    "cover": "/image/aluwave.webp",
+    "title": "Aluwave",
+    "color": "#44523f",
+    "slug": "aluwave",
+    "detailImages": [
+      "/image/aluwave.webp",
+      "/image/catefix.webp",
+      "/image/enspecta.webp",
+      "/image/flight.webp",
+      "/image/nso.webp"
+      ]
+  },
+  {
+    "cover": "/image/enspecta.webp",
+    "title": "Enspecta",
+    "color": "red",
+    "slug": "enspecta",
+    "detailImages": [
+      "/image/aluwave.webp",
+      "/image/catefix.webp",
+      "/image/enspecta.webp",
+      "/image/flight.webp",
+      "/image/nso.webp"
+    ]
+  },
+  {
+    "cover": "/image/nso.webp",
+    "title": "NSO",
+    "color": "blue",
+    "slug": "nso",
+    "detailImages": [
+      "/image/aluwave.webp",
+      "/image/catefix.webp",
+      "/image/enspecta.webp",
+      "/image/flight.webp",
+      "/image/nso.webp"
+    ]
+  },  {
+  "cover": "/image/catefix.webp",
+  "title": "catefix",
+  "color": "orange",
+  "slug": "catefix",
+  "detailImages": [
+    "/image/aluwave.webp",
+    "/image/catefix.webp",
+    "/image/enspecta.webp",
+    "/image/nso.webp"
+  ]
+},
+  {
+    "cover": "/image/hhgs.webp",
+    "title": "hhgs",
+    "color": "pink",
+    "slug": "hhgs",
+    "detailImages": [
+      "/image/catefix.webp",
+      "/image/enspecta.webp",
+      "/image/flight.webp",
+      "/image/aluwave.webp",
+      "/image/nso.webp"
+    ]
+  },
+  {
+    "cover": "/image/pharmiva.webp",
+    "title": "pharmiva",
+    "color": "purple",
+    "slug": "pharmiva",
+    "detailImages": [
+      "/image/aluwave.webp",
+      "/image/catefix.webp",
+      "/image/enspecta.webp",
+      "/image/flight.webp",
+      "/image/nso.webp"
+    ]
+  },
+  {
+    "cover": "/image/face.jpg",
+    "title": "face",
+    "color": "brown",
+    "slug": "face",
+    "detailImages": [
+      "/image/catefix.webp",
+      "/image/enspecta.webp",
+      "/image/flight.webp",
+      "/image/nso.webp"
+    ]
+  },
+  {
+    "cover": "/image/folkes.webp",
+    "title": "Folkes",
+    "color": "green",
+    "slug": "folkes",
+    "detailImages": [
+      "/image/enspecta.webp",
+      "/image/flight.webp",
+      "/image/nso.webp"
+    ]
+  },
+  {
+    "cover": "/image/kavlinge2.webp",
+    "title": "Kävlinge",
+    "color": "violet",
+    "slug": "kavlinge",
+    "detailImages": [
+      "/image/flight.webp",
+      "/image/nso.webp"
+    ]
+  },
+  {
+    "cover": "/image/npg.webp",
+    "title": "Nordic Premium Group",
+    "color": "violet",
+    "slug": "npg",
+    "detailImages": [
+      "/image/nso.webp"
+    ]
+  }
+]
