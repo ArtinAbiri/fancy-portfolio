@@ -13,6 +13,7 @@ $bg-color: white;
 body {
   font-family: 'Poppins', sans-serif;
   background-color: $bg-color;
+  cursor: none;
 
 }
 
@@ -42,7 +43,7 @@ body {
   z-index: 1;
 
   img {
-    width: 15vw;
+    width: 17vw;
   }
 
   .content__slide-item {

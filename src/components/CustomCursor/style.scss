@@ -12,13 +12,13 @@
   transition: width 0.25s ease-in-out, height 0.25s ease-in-out;
 
   &.regular {
-    width: 40px;
-    height: 40px;
+    width: 100px;
+    height: 100px;
   }
 
   &.small {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
   }
 }
 
@@ -34,8 +34,8 @@
 
 
 .secondary-cursor {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 
 }
 
