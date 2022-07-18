@@ -6,6 +6,8 @@ import {timeline, animate, stagger} from "motion";
 import {TimelineDefinition} from "@motionone/dom/types/timeline/types";
 import useLocomotiveScroll from "../hooks/useLocomotiveScroll";
 import imagesLoaded from "imagesloaded";
+import '../styles/home.scss';
+import '../styles/animation.css';
 
 
 export type DataType = {
@@ -64,7 +66,7 @@ export default function Home() {
     }, []);
 
     useEffect(() => {
-        const sequence2: TimelineDefinition = [[titleRef.current, {y: 100}], [imageRef.current, {scale: 1.2}, {at: "<"}], [countRef.current, {opacity: 0}, {at: "<"}], [countRef2.current, {opacity: 0}, {at: "<"}], [loaderRef.current, {y: "-100vh"}, {at: "-0.5"}], [titleRef.current, {y: 0}, {at: "-.5"}], [imageRef.current, {scale: 1}, {at: "<"}],] as TimelineDefinition;
+        const sequence2: TimelineDefinition = [[titleRef.current, {y: 100}], [imageRef.current, {scale: 1.2}, {at: "<"}], [countRef.current, {opacity: 0}, {at: "<"}], [countRef2.current, {opacity: 0}, {at: "<"}], [loaderRef.current, {y: "-200vh"}, {at: "-0.5"}], [titleRef.current, {y: 0}, {at: "-.5"}], [imageRef.current, {scale: 1}, {at: "<"}],] as TimelineDefinition;
 
         timeline(sequence2, {
             defaultOptions: {easing: [0.77, 0, 0.175, 1], duration: 2, delay: 3},
@@ -72,7 +74,7 @@ export default function Home() {
     }, []);
 
     return (<>
-        <div className="loader-container" ref={loaderRef}>
+        <div className="loader-container an" ref={loaderRef}>
             <div className="counter-container">
                 <ul className="counter-list" ref={countRef}>
                     <li>
