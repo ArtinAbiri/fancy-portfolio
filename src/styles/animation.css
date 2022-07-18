@@ -1,15 +1,20 @@
 
 .an{
-    -moz-animation: cssAnimation 0s ease-out 4.8s forwards;
-    /* Firefox */
-    -webkit-animation: cssAnimation 0s ease-out 4.8s forwards;
-    /* Safari and Chrome */
-    -o-animation: cssAnimation 0s ease-out 4.8s forwards;
-    /* Opera */
-    animation: cssAnimation 0s ease-out 4.8s forwards;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
 
+
+}
+@media screen and (max-width: 768px) {
+    .an{
+        -moz-animation: cssAnimation 0s ease-out 4.8s forwards;
+        /* Firefox */
+        -webkit-animation: cssAnimation 0s ease-out 4.8s forwards;
+        /* Safari and Chrome */
+        -o-animation: cssAnimation 0s ease-out 4.8s forwards;
+        /* Opera */
+        animation: cssAnimation 0s ease-out 4.8s forwards;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+    }
 }
 
 @keyframes cssAnimation {
@@ -21,4 +26,14 @@
     0%   {opacity: 1;}
     90%  {opacity: 1;}
     100% {opacity: 0;}
+}
+
+.hide{
+
+}
+
+@media screen and (max-width: 768px) {
+    .hide{
+        display: none;
+    }
 }

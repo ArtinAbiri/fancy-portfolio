@@ -1,7 +1,7 @@
 import React, {useContext, useEffect} from "react";
 import {CursorContext} from "./CursorManager";
 import "./style.scss";
-
+import '../../styles/animation.css';
 
 const CustomCursor = ({speed = 0.1}) => {
     const titleRef = React.useRef<HTMLDivElement>(null);
@@ -53,7 +53,7 @@ const CustomCursor = ({speed = 0.1}) => {
         followMouse();
     }, [speed]);
 
-    return (<div className="cursor-wrapper ">
+    return (<div className="cursor-wrapper hide">
             <div className='secondary-cursor' ref={mainCursor}/>
         </div>);
 };
